@@ -78,6 +78,29 @@ java.beans.PropertyChangeListener
 ```
 java.util.function包里还包含了一些函数接口
 
+#### @Override
+@Override修饰一个方法，表示这个方法覆盖了父类或接口的相同签名方法。
+
+```java
+class MyBaseClass {
+
+    public void hello() {
+        System.out.println("Hello from MyBaseClass");
+    }
+}
+
+```
+从MyBaseClass定义一个派生类MyExtensionClass2，其中子类覆盖了父类的同签名方法hello():
+```
+class MyExtensionClass2 extends MyBaseClass {
+
+    @Override
+    public void hello() {
+        System.out.println("Hello from MyExtensionClass2");
+    }
+}
+```
+
 
 
 [Introduction to Java programming - Tutorial](https://www.vogella.com/tutorials/JavaIntroduction/article.html#:~:text=Java%20is%20a%20programming%20language,1.0)%20was%20released%20in%201995.&text=Oracle%20has%20now%20the%20steermanship%20for%20Java.)
