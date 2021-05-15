@@ -158,5 +158,41 @@ public class Test {
 }
 ```
 
+ Valueof(arg)将参数值arg转化为相应的Number包裹类对象，如：
+ ```java
+ ublic class Test { 
+
+   public static void main(String args[]) {
+      Integer x =Integer.valueOf(9);
+      Double c = Double.valueOf(5);
+      Float a = Float.valueOf("80");               
+      Integer b = Integer.valueOf("444",16);
+
+      System.out.println(x); 
+      System.out.println(c);
+      System.out.println(a);
+      System.out.println(b);
+   }
+}
+ ```
+ 类似的，String的Valueof()方法也可以将参数值转化为String类型对象:
+ ```java
+ import java.io.*;
+public class Test {
+
+   public static void main(String args[]) {
+      double d = 102939939.939;
+      boolean b = true;
+      long l = 1232874;
+      char[] arr = {'a', 'b', 'c', 'd', 'e', 'f','g' };
+
+      System.out.println("Return Value : " + String.valueOf(d) );
+      System.out.println("Return Value : " + String.valueOf(b) );
+      System.out.println("Return Value : " + String.valueOf(l) );
+      System.out.println("Return Value : " + String.valueOf(arr) );
+   }
+}
+ ```
+
 
 [Introduction to Java programming - Tutorial](https://www.vogella.com/tutorials/JavaIntroduction/article.html#:~:text=Java%20is%20a%20programming%20language,1.0)%20was%20released%20in%201995.&text=Oracle%20has%20now%20the%20steermanship%20for%20Java.)
