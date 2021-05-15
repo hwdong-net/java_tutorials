@@ -60,6 +60,23 @@ public class C implements A, B {
     public void m() {}
 }
 ```
+**Functional interfaces(函数接口)**
+
+只有一个方法的接口称为**函数接口**。 函数接口的好处是它们可以和lmabda表达式（lambda expression）一起使用，lambda expression的类型就是函数接口。
+
+下面是一些常用的函数接口：
+```
+java.lang.Runnable
+
+java.util.concurrent.Callable
+
+java.io.FileFilter
+
+java.util.Comparator
+
+java.beans.PropertyChangeListener
+```
+java.util.function包里还包含了一些函数接口
 
 
 
