@@ -276,7 +276,7 @@ String toUpperCase(): Equivalent to toUpperCase(Locale.getDefault()).
 + boolean matches(String regex): It checks whether the String is matching with the specified regular expression regex.
 + int codePointAt(int index):It is similar to the charAt method however it returns the Unicode code point value of specified index rather than the character itself.
 
-常用方法有：**charAt()、equals()、subString()、trim()、split()、+、 length()、indexOf()、lastIndexOf()**等。
+常用方法有：**charAt()、equals()、subString()、trim()、split()、length()、indexOf()、lastIndexOf()**或'+'等。
 
 
 用**equals()**方法比较字符串是否相等:
