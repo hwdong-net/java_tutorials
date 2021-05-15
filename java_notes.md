@@ -276,7 +276,7 @@ String toUpperCase(): Equivalent to toUpperCase(Locale.getDefault()).
 + boolean matches(String regex): It checks whether the String is matching with the specified regular expression regex.
 + int codePointAt(int index):It is similar to the charAt method however it returns the Unicode code point value of specified index rather than the character itself.
 
-常用方法有：**charAt()、equals()、trim()、split()、+、 length()、indexOf()、lastIndexOf()等。
+常用方法有：**charAt()、equals()、subString()、trim()、split()、+、 length()、indexOf()、lastIndexOf()等。
 
 
 用**equals()**方法比较字符串是否相等:
@@ -315,6 +315,16 @@ if(str.lastIndexOf("Java") != -1){
       System.out.println("String contains Java lastly at: " + str.lastIndexOf("Java"));
 }
 ```
-
+split(String regex, int limit)用正则表达式regex分割字符串，limit是最大分割的字符串个数。
+```
+Public String [ ] split ( String regex, int limit )
+```
+如：
+```java
+String string = "004-034556-42";
+String[] parts = string.split("-", 2);
+String part1 = parts[0]; // 004
+String part2 = parts[1]; // 034556-42
+```
 
 [Introduction to Java programming - Tutorial](https://www.vogella.com/tutorials/JavaIntroduction/article.html#:~:text=Java%20is%20a%20programming%20language,1.0)%20was%20released%20in%201995.&text=Oracle%20has%20now%20the%20steermanship%20for%20Java.)
