@@ -46,7 +46,20 @@ public class Mammal implements Animal {
 Mammal实现了接口Animal的所有方法。
 
 一个类可以实现多个接口，但只能继承一个类。
+```java
+public interface A {
+    default void m() {}
+}
 
+public interface B {
+    default void m() {}
+}
+
+public class C implements A, B {
+    @Override
+    public void m() {}
+}
+```
 
 
 
