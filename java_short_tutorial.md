@@ -101,6 +101,19 @@ class MyExtensionClass2 extends MyBaseClass {
 }
 ```
 
+#### 
+原始数值类型有byte, int, long, double，如：
+```
+int i = 5000;
+float gpa = 13.65f;
+double mask = 125;
+```
+有些场合需要传递对象类型（Object）的引用而不是这些原始基本类型。例如如果想修改一个数值，直接传递原始基本类型是无法做到的（如交换2个整数变量）。
+原始基本类型的**包裹类（wrapper classes）**都是从叫做Number的类派生出来的。
+![](https://www.tutorialspoint.com/java/images/number_classes.jpg)
+
+java1.5后编译器可以自动将一个原始基本类型转换为对应的包裹类型，这称为**Boxing**,反过来，也可以将一个包裹类型自动转化为对应的原始基本类型，这称为**unboxing**。
+
 
 
 [Introduction to Java programming - Tutorial](https://www.vogella.com/tutorials/JavaIntroduction/article.html#:~:text=Java%20is%20a%20programming%20language,1.0)%20was%20released%20in%201995.&text=Oracle%20has%20now%20the%20steermanship%20for%20Java.)
