@@ -101,7 +101,8 @@ class MyExtensionClass2 extends MyBaseClass {
 }
 ```
 
-#### 
+#### 原始基本类型的包裹类型：Number、Integer、Long、Double
+
 原始数值类型有byte, int, long, double，如：
 ```
 int i = 5000;
