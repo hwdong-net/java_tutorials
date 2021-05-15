@@ -296,7 +296,7 @@ System.out.println("name_1 and name_2 are equal String by equals method");
 
 ```
 
-用**indexOf()**和 **lastIndexOf()**或用** matches(String regex)**方法在一个字符串中搜索：
+用**indexOf()**和 **lastIndexOf()** 或用**matches(String regex)**方法在一个字符串中搜索：
 
 ```java
 String str = "Java is best programming language";
