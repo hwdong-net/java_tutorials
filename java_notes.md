@@ -279,7 +279,7 @@ String toUpperCase(): Equivalent to toUpperCase(Locale.getDefault()).
 
 **常用方法有**：
 
-**charAt()、equals()、subString()、trim()、split()、length()、indexOf()、lastIndexOf()**或'+'等。
+**charAt**()、**equals**()、**subString**()、**trim**()、**split**()、**length**()、**indexOf**()、**lastIndexOf()**、**+**等。
 
 
 用**equals**()方法比较字符串是否相等:
@@ -320,7 +320,7 @@ if(str.lastIndexOf("Java") != -1){
 }
 ```
 
-**split(String regex, int limit)**用正则表达式regex分割字符串，limit是最大分割的字符串个数。
+**split**(String regex, int limit)用正则表达式regex分割字符串，limit是最大分割的字符串个数。
 
 ```
 Public String [ ] split ( String regex, int limit )
