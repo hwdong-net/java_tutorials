@@ -195,6 +195,13 @@ public class Test {
  ```
 
 Number还有equals()、compareTo()用来比较2个对象的内容是否相等，而==是比较2个对象的引用是不是引用的是同一个对象。
+#### String
+创建String类对象有2种方法：通过赋值一个文字量、通过new创建。
+
+```java
+String str1 = "Welcome";
+String str2 = new String("Welcome");
+```
 
 [Number的一些方法](https://www.tutorialspoint.com/java/java_numbers.htm#:~:text=All%20the%20wrapper%20classes%20(Integer,taken%20care%20by%20the%20compiler.)
 
