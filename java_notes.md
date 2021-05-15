@@ -235,7 +235,7 @@ public class Example{
 + int compareTo(String string): This method compares the two strings based on the Unicode value of each character in the strings.
 + **int compareToIgnoreCase(String string)**: Same as CompareTo method however it ignores the case during comparison.
 + **boolean startsWith(String prefix, int offset)**: It checks whether the substring (starting from the specified offset index) is having the specified prefix or not.
-+ boolean startsWith(String prefix): It tests whether the string is having specified prefix, if yes then it returns true else false.
++ **boolean startsWith(String prefix)**: It tests whether the string is having specified prefix, if yes then it returns true else false.
 + boolean endsWith(String suffix): Checks whether the string ends with the specified suffix.
 + int hashCode(): It returns the hash code of the string.
 + int indexOf(int ch): Returns the index of first occurrence of the specified character ch in the string.
@@ -246,7 +246,7 @@ public class Example{
 + int lastindexOf(String str): Returns the index of last occurrence of string str.
 + **String substring(int beginIndex)**: It returns the substring of the string. The substring starts with the character at the specified index.
 + **String substring(int beginIndex, int endIndex)**: Returns the substring. The substring starts with character at beginIndex and ends with the character at endIndex.
-+ String concat(String str): Concatenates the specified string “str” at the end of the string.
++ **String concat(String str)**: Concatenates the specified string “str” at the end of the string.
 + **String replace(char oldChar, char newChar)**: It returns the new updated string after changing all the occurrences of oldChar with the newChar.
 + **boolean contains(CharSequence s)**: It checks whether the string contains the specified sequence of char values. If yes then it returns true else false. It throws NullPointerException of ‘s’ is null.
 + String toUpperCase(Locale locale): Converts the string to upper case string using the rules defined by specified locale.
@@ -276,6 +276,45 @@ String toUpperCase(): Equivalent to toUpperCase(Locale.getDefault()).
 + boolean matches(String regex): It checks whether the String is matching with the specified regular expression regex.
 + int codePointAt(int index):It is similar to the charAt method however it returns the Unicode code point value of specified index rather than the character itself.
 
+常用方法有：**charAt()、equals()、trim()、split()、+、 length()、indexOf()、lastIndexOf()等。
+
+
+用**equals()**方法比较字符串是否相等:
+```java
+String name = "Java"; //1st String object
+String name_1 = "Java"; //same object referenced by name variable
+String name_2 = new String("Java") //different String object
+
+if(name.equals(name_1)){
+System.out.println("name and name_1 are equal String by equals method");
+}
+
+//this will return false
+if(name==name_2){
+System.out.println("name_1 and name_2 are equal String by equals method");
+}
+
+```
+
+用**indexOf()**和 **lastIndexOf()**或用** matches(String regex)**方法在一个字符串中搜索：
+
+```java
+String str = "Java is best programming language";
+
+if(str.indexOf("Java") != -1){
+     System.out.println("String contains Java at index :" + str.indexOf("Java"));
+}
+
+if(str.matches("J.*")){
+     System.out.println("String Starts with J");
+}
+
+str ="Do you like Java ME or Java EE";
+
+if(str.lastIndexOf("Java") != -1){
+      System.out.println("String contains Java lastly at: " + str.lastIndexOf("Java"));
+}
+```
 
 
 [Introduction to Java programming - Tutorial](https://www.vogella.com/tutorials/JavaIntroduction/article.html#:~:text=Java%20is%20a%20programming%20language,1.0)%20was%20released%20in%201995.&text=Oracle%20has%20now%20the%20steermanship%20for%20Java.)
