@@ -141,6 +141,18 @@ public class Test {
 }
 ```
 
+包裹类的toString()将一个数值类型转化为一个字符串：
+```java
+public class Test { 
+
+   public static void main(String args[]) {
+      Integer x = 5;
+
+      System.out.println(x.toString());  
+      System.out.println(Integer.toString(12)); 
+   }
+}
+```
 
 
 [Introduction to Java programming - Tutorial](https://www.vogella.com/tutorials/JavaIntroduction/article.html#:~:text=Java%20is%20a%20programming%20language,1.0)%20was%20released%20in%201995.&text=Oracle%20has%20now%20the%20steermanship%20for%20Java.)
