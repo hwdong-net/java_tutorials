@@ -276,10 +276,12 @@ String toUpperCase(): Equivalent to toUpperCase(Locale.getDefault()).
 + boolean matches(String regex): It checks whether the String is matching with the specified regular expression regex.
 + int codePointAt(int index):It is similar to the charAt method however it returns the Unicode code point value of specified index rather than the character itself.
 
+
 常用方法有：**charAt()、equals()、subString()、trim()、split()、length()、indexOf()、lastIndexOf()**或'+'等。
 
 
-用**equals()**方法比较字符串是否相等:
+用**equals**()方法比较字符串是否相等:
+
 ```java
 String name = "Java"; //1st String object
 String name_1 = "Java"; //same object referenced by name variable
@@ -296,7 +298,7 @@ System.out.println("name_1 and name_2 are equal String by equals method");
 
 ```
 
-用**indexOf()**和 **lastIndexOf()** 或用**matches(String regex)**方法在一个字符串中搜索：
+用 **indexOf**()和 **lastIndexOf()** 或用 **matches(String regex)** 方法在一个字符串中搜索：
 
 ```java
 String str = "Java is best programming language";
@@ -315,7 +317,8 @@ if(str.lastIndexOf("Java") != -1){
       System.out.println("String contains Java lastly at: " + str.lastIndexOf("Java"));
 }
 ```
-split(String regex, int limit)用正则表达式regex分割字符串，limit是最大分割的字符串个数。
+
+**split(String regex, int limit)**用正则表达式regex分割字符串，limit是最大分割的字符串个数。
 ```
 Public String [ ] split ( String regex, int limit )
 ```
