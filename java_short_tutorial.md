@@ -125,4 +125,22 @@ public class Test {
 }
 ```
 
+包裹类还包含一些使用方法，而原始基本类型没有这些方法。如包裹类的方法parseX()可以将一个字符串解析为一个X类型的数值。如：
+```java
+public class Test { 
+
+   public static void main(String args[]) {
+      int x =Integer.parseInt("9");
+      double c = Double.parseDouble("5");
+      int b = Integer.parseInt("444",16); //解析成16进制格式的整数
+
+      System.out.println(x);
+      System.out.println(c);
+      System.out.println(b);
+   }
+}
+```
+
+
+
 [Introduction to Java programming - Tutorial](https://www.vogella.com/tutorials/JavaIntroduction/article.html#:~:text=Java%20is%20a%20programming%20language,1.0)%20was%20released%20in%201995.&text=Oracle%20has%20now%20the%20steermanship%20for%20Java.)
