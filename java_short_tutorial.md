@@ -150,6 +150,9 @@ public class Test {
 
       System.out.println(x.toString());  
       System.out.println(Integer.toString(12)); 
+      System.out.println(Double.toString(11.0));
+      System.out.println(Long.toString(123213123));
+      System.out.println(Boolean.toString(false));
    }
 }
 ```
