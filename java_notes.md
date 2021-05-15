@@ -196,5 +196,7 @@ public class Test {
 
 Number还有equals()、compareTo()用来比较2个对象的内容是否相等，而==是比较2个对象的引用是不是引用的是同一个对象。
 
+[Number的一些方法](https://www.tutorialspoint.com/java/java_numbers.htm#:~:text=All%20the%20wrapper%20classes%20(Integer,taken%20care%20by%20the%20compiler.)
+
 
 [Introduction to Java programming - Tutorial](https://www.vogella.com/tutorials/JavaIntroduction/article.html#:~:text=Java%20is%20a%20programming%20language,1.0)%20was%20released%20in%201995.&text=Oracle%20has%20now%20the%20steermanship%20for%20Java.)
