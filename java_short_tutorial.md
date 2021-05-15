@@ -114,6 +114,15 @@ double mask = 125;
 
 java1.5后编译器可以自动将一个原始基本类型转换为对应的包裹类型，这称为**Boxing**,反过来，也可以将一个包裹类型自动转化为对应的原始基本类型，这称为**unboxing**。
 
+```java
+public class Test {
 
+   public static void main(String args[]) {
+      Integer x = 5; // boxes int to an Integer object
+      int y  =  x + 10;   // unboxes the Integer to a int     
+      System.out.println(y);       
+   }
+}
+```
 
 [Introduction to Java programming - Tutorial](https://www.vogella.com/tutorials/JavaIntroduction/article.html#:~:text=Java%20is%20a%20programming%20language,1.0)%20was%20released%20in%201995.&text=Oracle%20has%20now%20the%20steermanship%20for%20Java.)
