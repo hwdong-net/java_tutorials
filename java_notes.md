@@ -60,6 +60,35 @@ public class C implements A, B {
     public void m() {}
 }
 ```
+
+java的Comparable接口用于比较2个对象的大小，其中包含了compareTo()方法
+```Java
+public interface Comparable<T> {
+    int compareTo(T var1);
+}
+```
+如实现一个苹果类Apple并且可以对不同苹果对象比较大小：
+```java
+public class Apple implements Comparable<Apple> {
+    private String variety;
+    private Color color;
+    private int weight;
+
+    @Override
+    public int compareTo(Apple other) {
+        if (this.weight < other.weight) {
+            return -1;
+        }
+        if (this.weight == other.weight) {
+            return 0;
+        }
+        return 1;
+    }
+}
+```
+
+
+
 **Functional interfaces(函数接口)**
 
 只有一个方法的接口称为**函数接口**。 函数接口的好处是它们可以和lmabda表达式（lambda expression）一起使用，lambda expression的类型就是函数接口。
