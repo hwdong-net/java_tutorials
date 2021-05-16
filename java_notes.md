@@ -461,4 +461,5 @@ Level level = Level.valueOf("HIGH");
 
 [java enum tutorial](https://howtodoinjava.com/java/enum/enum-tutorial/)
 
+[Java String](http://tutorials.jenkov.com/java/strings.html#internal-string-representation)
 [jenkov.com](jenkov.com)
