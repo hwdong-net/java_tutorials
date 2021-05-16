@@ -88,28 +88,16 @@ public class Apple implements Comparable<Apple> {
 ```
 可以根据Apple对象的多个特征进行比较：
 ```java
-public class Apple implements Comparable {
-    private String variety;
-    private Color color;
-    private int weight;
-
-    @Override
-    public int compareTo(Apple other) {
-        int result = this.variety.compareTo(other.variety);
-        if (result != 0) {
-            return result;
-        }
-        if (result == 0) {
-            result = this.color.compareTo(other.color);
-        }
-        if (result != 0) {
-            return result;
-        }
-        if (result == 0) {
-            result = Integer.compare(this.weight, other.weight);
-        }
-        return result;
-    }
+@Override
+public int compareTo(Apple other) {
+     int result = this.variety.compareTo(other.variety);
+     if (result == 0) {
+          result = this.color.compareTo(other.color);
+     }
+     if (result == 0) {
+          result = Integer.compare(this.weight, other.weight);
+     }
+     return result;
 }
 ```
 
@@ -388,6 +376,87 @@ String part1 = parts[0]; // 004
 String part2 = parts[1]; // 034556-42
 ```
 
+#### enum 
+
+枚举类型(enum type)是一种特殊的数据类型，该类型的变量的值是一组预定义的常量。
+```java
+public enum Level {
+    HIGH,
+    MEDIUM,
+    LOW
+}
+```
+可以定义这种枚举类型的变量：
+```java
+Level level = Level.HIGH;
+```
+可以在if语句中将枚举变量和枚举类型的常量比较：
+```
+Level level = ...  //assign some Level constant to it
+
+if( level == Level.HIGH) {
+
+} else if( level == Level.MEDIUM) {
+
+} else if( level == Level.LOW) {
+
+}
+```
+可以在switch语句中将枚举变量和枚举类型的常量比较：
+```java
+Level level = ...  //assign some Level constant to it
+
+switch (level) {
+    case HIGH   : ...; break;
+    case MEDIUM : ...; break;
+    case LOW    : ...; break;
+}
+```
+
+枚举本质上就是一个类：
+```
+final class Level extends Enum<Level>
+{
+    public final static Direction HIGH = new Level();
+    public final static Direction MEDIUM = new Level();
+    public final static Direction LOW = new Level();    
+}
+```
+
+枚举类型可以包含方法和其他属性，编译器甚至会自动添加一些特殊的方法，如values()方法可以返回枚举类型的所有常量值的一个数组（Array）（按照这些常量值在枚举类型中的定义次序）。
+```java
+for (Level level : Level.values()) {
+    System.out.println(level);
+}
+```
+同样的，编译器为枚举类型自动生成的方法还有：**ordinal**()、**toString**()、**valueOf**()等。
+如ordinal()可以得到枚举实例的次序：
+```java
+Level.HIGH.ordinal();     //0 
+Level.HIGH.LOW();     //2
+```
+
+toString()方法，用于得到一个枚举实例的名字的字符串表示：
+```java
+String levelText = Level.HIGH.toString(); //输出文本HIGH
+```
+如果你打印一个枚举变量，将调用这个toString()方法输出这个变量值的名字的字符串
+```java
+System.out.println(Level.HIGH);
+```
+
+静态方法valueOf() ，可以根据字符串（枚举常量的名字）得到一个枚举类型的实例：
+```java
+Level level = Level.valueOf("HIGH");
+```
+
+
+
+
 [Introduction to Java programming - Tutorial](https://www.vogella.com/tutorials/JavaIntroduction/article.html#:~:text=Java%20is%20a%20programming%20language,1.0)%20was%20released%20in%201995.&text=Oracle%20has%20now%20the%20steermanship%20for%20Java.)
 
 [Java Comparable Interface in Five Minutes](https://dzone.com/articles/java-comparable-interface-in-five-minutes)
+
+[Enum Types](https://docs.oracle.com/javase/tutorial/java/javaOO/enum.html)
+
+[java enum tutorial](https://howtodoinjava.com/java/enum/enum-tutorial/)
