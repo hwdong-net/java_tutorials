@@ -86,6 +86,32 @@ public class Apple implements Comparable<Apple> {
     }
 }
 ```
+可以根据Apple对象的多个特征进行比较：
+```java
+public class Apple implements Comparable {
+    private String variety;
+    private Color color;
+    private int weight;
+
+    @Override
+    public int compareTo(Apple other) {
+        int result = this.variety.compareTo(other.variety);
+        if (result != 0) {
+            return result;
+        }
+        if (result == 0) {
+            result = this.color.compareTo(other.color);
+        }
+        if (result != 0) {
+            return result;
+        }
+        if (result == 0) {
+            result = Integer.compare(this.weight, other.weight);
+        }
+        return result;
+    }
+}
+```
 
 
 
@@ -363,3 +389,5 @@ String part2 = parts[1]; // 034556-42
 ```
 
 [Introduction to Java programming - Tutorial](https://www.vogella.com/tutorials/JavaIntroduction/article.html#:~:text=Java%20is%20a%20programming%20language,1.0)%20was%20released%20in%201995.&text=Oracle%20has%20now%20the%20steermanship%20for%20Java.)
+
+[Java Comparable Interface in Five Minutes](https://dzone.com/articles/java-comparable-interface-in-five-minutes)
