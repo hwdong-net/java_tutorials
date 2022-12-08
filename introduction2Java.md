@@ -1,6 +1,7 @@
 **学编程、认准hwdong （[https://hwdong.net](https://hwdong.net)）**
 
-## 1.1 java介绍
+
+## 1.1 java介绍 （ [youtube视频](https://youtu.be/fsC9k6_zDeU) ）
 
 ### 1.1.1 Java技术（Java Technology）
 
