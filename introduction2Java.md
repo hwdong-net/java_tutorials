@@ -1,4 +1,4 @@
-**学编程、认准hwdong （[https://hwdong.net](https://hwdong.net)）**
+**学编程、认准hwdong （[https://hwdong-net.github.io](https://hwdong-net.github.io) ）**
 
 
 ## 1.1 java介绍 （ [youtube视频](https://youtu.be/fsC9k6_zDeU) ）
