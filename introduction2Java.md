@@ -45,4 +45,8 @@ API 是大量现成软件组件的集合，可提供许多有用的功能。它�
 
    ![The API and Java Virtual Machine insulate the program from the underlying hardware.](https://docs.oracle.com/javase/tutorial/figures/getStarted/getStarted-jvm.gif)
    
+   
+   
+   #### Reference:
+   - [https://docs.oracle.com/javase/tutorial/getStarted/intro/definition.html](https://docs.oracle.com/javase/tutorial/getStarted/intro/definition.html)
 
