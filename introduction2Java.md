@@ -102,6 +102,41 @@ class HelloWorld{
   - 在同一目录下，执行dir，可以发现多出了一个HelloWorld.class文件。这是刚才编译HelloWorld.java产生的字节码文件
   - 在同一目录下，通过执行命令“java -cp . HelloWorld”运行HelloWorld.class。
 
+假如你的保存在D盘的文件夹myapplication中，则如下为可能的执行过程：
+
+```
+C:\>D:
+D:\>cd myapplication
+D:\myapplication>dir
+ Volume in drive C is System
+ Volume Serial Number is F2E8-C8CC
+
+ Directory of D:\myapplication
+
+2014-04-24  01:34 PM    <DIR>          .
+2014-04-24  01:34 PM    <DIR>          ..
+2014-04-24  01:34 PM               267 HelloWorldApp.java
+               1 File(s)            267 bytes
+               2 Dir(s)  93,297,991,680 bytes free
+       
+D:\myapplication>javac HelloWorld.java
+
+D:\myapplication>dir
+ Volume in drive C is System
+ Volume Serial Number is F2E8-C8CC
+
+ Directory of D:\myapplication
+
+2014-04-24  02:07 PM    <DIR>          .
+2014-04-24  02:07 PM    <DIR>          ..
+2014-04-24  02:07 PM               432 HelloWorld.class
+2014-04-24  01:34 PM               267 HelloWorld.java
+               2 File(s)            699 bytes
+               2 Dir(s)  93,298,032,640 bytes free
+               
+D:\myapplication>java -cp . HelloWorldApp
+Hello World!
+```
 
 ### 1.1.5 理解“HelloWorld”程序
 
