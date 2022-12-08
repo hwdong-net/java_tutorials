@@ -72,7 +72,8 @@ JDK（Java Development Kit）（**Java开发工具包**）是用Java开发应用
  Java 用于开发移动应用程序、Web 应用程序、桌面应用程序、游戏等等。
  
 ### 1.1.3 “Hello World！”程序
-下面的java程序在屏幕上显示”Hello World！“。
+
+下面的java程序在屏幕上显示“Hello World！”。
 ```java
 /**
  * The HelloWorld class implements an application that
@@ -84,6 +85,25 @@ class HelloWorld{
     }
 }
 ```
+
+### 1.1.4 编译和运行“HelloWorld”程序
+
+####  Microsoft Windows
+
+
+- 下载安装[JDK](http://www.oracle.com/technetwork/java/javase/downloads/index.html)。注意将jdk的bin文件夹路径添加到系统或当前用户的path环境变量中。
+
+- 用一个文本编辑器如Notepad编写上述的HelloWorld程序代码，并将文本保存为.java后缀的文件（如HelloWorld.java）。
+
+- 编译和运行
+  - 打开windows的命令行窗口
+  - 进入HelloWorld.java文件所在的文件夹
+  - 执行编译命令： javac HelloWorld.java
+  - 在同一目录下，执行dir，可以发现多出了一个HelloWorld.class文件。这是刚才编译HelloWorld.java产生的字节码文件
+  - 在同一目录下，通过执行命令“java -cp . HelloWorld”运行HelloWorld.class。
+
+
+### 1.1.5 理解“HelloWorld”程序
 
 这个java程序由三个部分组成：注释（comments）、HelloWorld类定义和main方法。注释是对程序代码进行解释，注释不是代码，编译器会忽略注释，但注释增加了代码的可读性，注释有助于其他程序员或自己今后阅读代码。
 
