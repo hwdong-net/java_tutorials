@@ -85,6 +85,12 @@ class HelloWorld{
 }
 ```
 
+这个java程序由三个部分组成：注释（comments）、HelloWorld类定义和main方法。注释是对程序代码进行解释，注释不是代码，编译器会忽略注释，但注释增加了代码的可读性，注释有助于其他程序员或自己今后阅读代码。
+
+Java编程语言支持三种注释：
+- /* text */
+The compiler ignores everything from /* to */.
+
    
 #### Reference:
    - [https://docs.oracle.com/javase/tutorial/getStarted/intro/definition.html](https://docs.oracle.com/javase/tutorial/getStarted/intro/definition.html)
