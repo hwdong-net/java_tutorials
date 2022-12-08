@@ -97,6 +97,10 @@ Java编程语言支持三种注释：
   
    ```这表示文档注释（简称doc comment）。编译器会忽略这种注释，就像它会忽略使用 /* 和 */ 的注释一样。 javadoc 工具在准备自动生成的文档时使用文档注释。```
    
+-  // 文本
+
+    编译器忽略从 // 到行尾的所有内容。
+   
 #### Reference:
    - [https://docs.oracle.com/javase/tutorial/getStarted/intro/definition.html](https://docs.oracle.com/javase/tutorial/getStarted/intro/definition.html)
    - [https://www.programiz.com/java-programming/jvm-jre-jdk](https://www.programiz.com/java-programming/jvm-jre-jdk)
