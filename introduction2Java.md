@@ -1,6 +1,8 @@
 **学编程、认准hwdong （[https://hwdong.net](https://hwdong.net)）**
 
-### 1.1 Java技术（Java Technology）
+## 1.1 java介绍
+
+### 1.1.1 Java技术（Java Technology）
 
 Java技术既是一种编程语言又是一个平台(Java technology is both a programming language and a platform.)。
 
@@ -66,6 +68,10 @@ JDK（Java Development Kit）（**Java开发工具包**）是用Java开发应用
 - 部署技术：JDK 软件提供标准机制，例如 Java Web Start 软件和 Java Plug-In 软件，用于将您的应用程序部署到最终用户。
 - 用户界面工具包：JavaFX、Swing 和 Java 2D 工具包使创建复杂的图形用户界面 (GUI) 成为可能。
 
+### 1.1.2 Java的应用
+ Java 用于开发移动应用程序、Web 应用程序、桌面应用程序、游戏等等。
+ 
+### 最简单的Java程序：HelloWorld
    
 #### Reference:
    - [https://docs.oracle.com/javase/tutorial/getStarted/intro/definition.html](https://docs.oracle.com/javase/tutorial/getStarted/intro/definition.html)
