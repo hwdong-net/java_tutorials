@@ -1,4 +1,4 @@
-### Java技术（Java Technology）
+### 1.1 Java技术（Java Technology）
 
 Java技术既是一种编程语言又是一个平台(Java technology is both a programming language and a platform.)。
 
