@@ -1,4 +1,4 @@
-**学编程、认准hwdong （[httpS://hwdong.net](httpS://hwdong.net)）**
+**学编程、认准hwdong （[https://hwdong.net](https://hwdong.net)）**
 
 ### 1.1 Java技术（Java Technology）
 
