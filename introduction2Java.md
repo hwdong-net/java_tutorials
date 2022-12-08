@@ -27,7 +27,7 @@ Java软件开发过程如图所示：
 
 ![An overview of the software development process.](https://docs.oracle.com/javase/tutorial/figures/getStarted/getStarted-compiler.gif)
 
-Java语言的**源程序**是以后缀**.java** 结尾的文本文件，经过Java编译器(**Javac**)编译为 **.class** 的**字节码（bytecodes）** 文件，字节码是**Java虚拟机**（**Java Virtual Machine** 简称 **Java VM**）的机器语言。**Java**装载器将java字节码程序装载到Java虚拟机中运行。
+Java语言的 **源程序** 是以后缀 **.java** 结尾的文本文件，经过Java编译器(**Javac**)编译为 **.class** 的**字节码（bytecodes）** 文件，字节码是**Java虚拟机**（**Java Virtual Machine** 简称 **Java VM**）的机器语言。**Java**装载器将java字节码程序装载到Java虚拟机中运行。
 
 因为不同的操作系统上都有相应的**Java VM**，因此，同样的 **.class** 字节码程序可以运行在不同的操作系统（如Microsoft Windows, the Solaris™ Operating System (Solaris OS), Linux, or Mac OS.）上。 使得Java程序“**编写一次、处处运行**(write once run anywhere)”。
 
