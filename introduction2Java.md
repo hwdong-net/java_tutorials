@@ -54,6 +54,8 @@ API 是大量现成软件组件的集合，可提供许多有用的功能。它�
 ![Java Runtime Environment](https://cdn.programiz.com/sites/tutorial2program/files/java-realtime-enviornment_0.jpg)
     
 JDK（Java Development Kit）（**Java开发工具包**）是用Java开发应用程序所需的软件开发工具包，其中除了JRE，还包含了开发Java程序的开发工具如Java编译器Javac、字节码装载器Java、java文档工具JavaDoc等。当您下载 JDK 时，JRE 也会随之下载。要开发java软件，就需要下载安装JDK。
+
+![](https://cdn.programiz.com/sites/tutorial2program/files/jdk-jre-jvm.jpg)
    
 #### Reference:
    - [https://docs.oracle.com/javase/tutorial/getStarted/intro/definition.html](https://docs.oracle.com/javase/tutorial/getStarted/intro/definition.html)
