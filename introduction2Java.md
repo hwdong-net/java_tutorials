@@ -58,6 +58,14 @@ API 是大量现成软件组件的集合，可提供许多有用的功能。它�
 JDK（Java Development Kit）（**Java开发工具包**）是用Java开发应用程序所需的软件开发工具包，其中除了JRE，还包含了开发Java程序的开发工具如Java编译器Javac、字节码装载器Java、java文档工具JavaDoc等。当您下载 JDK 时，JRE 也会随之下载。要开发java软件，就需要下载安装JDK。
 
 ![](https://cdn.programiz.com/sites/tutorial2program/files/jdk-jre-jvm.jpg)
+
+#### JDK能做啥？
+
+- 开发工具： 开发工具提供了编译、运行、监控、调试和记录应用程序所需的一切。作为一名新开发人员，您将使用的主要工具是 javac 编译器、java 启动器和 javadoc 文档工具。
+- Application Programming Interface (API): API 提供 Java 编程语言的核心功能。它提供了大量有用的类，可以在您自己的应用程序中使用。它涵盖了从基本对象到网络和安全，再到 XML 生成和数据库访问等方方面面。
+- 部署技术：JDK 软件提供标准机制，例如 Java Web Start 软件和 Java Plug-In 软件，用于将您的应用程序部署到最终用户。
+- 用户界面工具包：JavaFX、Swing 和 Java 2D 工具包使创建复杂的图形用户界面 (GUI) 成为可能。
+
    
 #### Reference:
    - [https://docs.oracle.com/javase/tutorial/getStarted/intro/definition.html](https://docs.oracle.com/javase/tutorial/getStarted/intro/definition.html)
