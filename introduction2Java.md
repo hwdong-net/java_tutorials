@@ -43,15 +43,15 @@ Java语言的 **源程序** 是以后缀 **.java** 结尾的文本文件，经�
    
 API 是大量现成软件组件的集合，可提供许多有用的功能。它被分组为相关**类**（classes）和**接口**（interfaces）的库；这些库被称为**包**（*packages*）。
 
-   ![The API and Java Virtual Machine insulate the program from the underlying hardware.](https://docs.oracle.com/javase/tutorial/figures/getStarted/getStarted-jvm.gif)
+![The API and Java Virtual Machine insulate the program from the underlying hardware.](https://docs.oracle.com/javase/tutorial/figures/getStarted/getStarted-jvm.gif)
    
-   因为Java程序是运行在Java VM这个虚拟机软件上，所以Java程序的速度要比直接操纵硬件的程序如C/C++等低。
+因为Java程序是运行在Java VM这个虚拟机软件上，所以Java程序的速度要比直接操纵硬件的程序如C/C++等低。
    
 ### Java JDK, JRE and JVM
    
 **JVM**是Java VM的缩写。**JRE**（Java Runtime Environment）（**Java运行环境**）是一个软件包，它提供了 Java 类库、Java 虚拟机 (JVM) 以及运行 Java 应用程序所需的其他组件。要运行java软件，你的操作系统上必须有JRE环境。
     
-    ![Java Runtime Environment](https://cdn.programiz.com/sites/tutorial2program/files/java-realtime-enviornment_0.jpg)
+![Java Runtime Environment](https://cdn.programiz.com/sites/tutorial2program/files/java-realtime-enviornment_0.jpg)
     
 JDK（Java Development Kit）（**Java开发工具包**）是用Java开发应用程序所需的软件开发工具包，其中除了JRE，还包含了开发Java程序的开发工具如Java编译器Javac、字节码装载器Java、java文档工具JavaDoc等。当您下载 JDK 时，JRE 也会随之下载。要开发java软件，就需要下载安装JDK。
    
