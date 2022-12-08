@@ -142,7 +142,11 @@ java MyApp arg1 arg2
 ```
 运行MyAPP程序时，传递给它2个字符串arg1和arg2。
 
-   
+main()方法中的语句:
+```cpp
+System.out.println("Hello World!");
+```
+使用核心库中的System类来打印“Hello World！”消息到标准输出。
    
 #### Reference:
    - [https://docs.oracle.com/javase/tutorial/getStarted/intro/definition.html](https://docs.oracle.com/javase/tutorial/getStarted/intro/definition.html)
