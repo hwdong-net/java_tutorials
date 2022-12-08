@@ -71,7 +71,19 @@ JDK（Java Development Kit）（**Java开发工具包**）是用Java开发应用
 ### 1.1.2 Java的应用
  Java 用于开发移动应用程序、Web 应用程序、桌面应用程序、游戏等等。
  
-### 1.1.3 最简单的Java程序：HelloWorld
+### 1.1.3 “Hello World！”程序
+下面的java程序在屏幕上显示”Hello World！“。
+```java
+/**
+ * The HelloWorld class implements an application that
+ * simply prints "Hello World!" to standard output.
+ */
+class HelloWorld{
+    public static void main(String[] args) {
+        System.out.println("Hello World!"); // 显示字符串 “Hello World!”
+    }
+}
+```
 
    
 #### Reference:
