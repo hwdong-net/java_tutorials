@@ -33,3 +33,8 @@ Java语言的 **源程序** 是以后缀 **.java** 结尾的文本文件，经�
 
 ![ 通过Java VM，同样程序可运行在任何操作系统上](https://docs.oracle.com/javase/tutorial/figures/getStarted/helloWorld.gif)
 
+#### java平台（Java Platform）
+
+   平台是程序运行的硬件或软件环境。如Microsoft Windows, Linux, Solaris OS, 和 Mac OS等曹祖哟系统平台。大多数平台可以描述为操作系统和底层硬件的组合。不同于大多数其他平台，Java平台是一个运行在其他基于硬件的平台（如Microsoft Windows）之上的纯软件平台。
+   
+
