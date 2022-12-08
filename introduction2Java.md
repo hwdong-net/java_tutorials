@@ -31,3 +31,5 @@ Java语言的 **源程序** 是以后缀 **.java** 结尾的文本文件，经�
 
 因为不同的操作系统上都有相应的**Java VM**，因此，同样的 **.class** 字节码程序可以运行在不同的操作系统（如Microsoft Windows, the Solaris™ Operating System (Solaris OS), Linux, or Mac OS.）上。 使得Java程序“**编写一次、处处运行**(write once run anywhere)”。
 
+![ 通过Java VM，同样程序可运行在任何操作系统上](https://docs.oracle.com/javase/tutorial/figures/getStarted/helloWorld.gif)
+
