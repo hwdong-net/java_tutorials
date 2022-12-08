@@ -163,8 +163,6 @@ Java编程语言支持三种注释：
  
      每个应用程序都以类定义开始,定义一个类的一般格式是：
 ```java
- a class definition is:
-
 class name {
     . . .
 }
