@@ -103,7 +103,7 @@ Java编程语言支持三种注释：
 
     编译器忽略从 // 到行尾的所有内容。
    
- #### HelloWorld类定义  
+ #### 定义类
  
      每个应用程序都以类定义开始,定义一个类的一般格式是：
 ```java
@@ -121,9 +121,27 @@ class HelloWorld {
      ... .. ...
 }
 ```
+当然，一个程序可以定义多个不同的类。
+#### main 方法
 
+在 Java 编程语言中，每个应用程序都必须包含一个 main 方法，其签名为：
+```java
+public static void main(String[] args)
+```
 
-   
+修饰符 public 和 static 可以按任意顺序编写（public static 或 static public）。main方法类似于C和C++中的main函数；它是您的应用程序的入口点，应用程序执行的是main方法中的代码，main方法中的代码可能调用其他类的方法。
+
+main 方法接受一个参数args,args是一个包含多个元素的数组，每个元素的类型是String（String是一个表示字符串的类型），即每个元素是一个字符串。
+```cpp
+public static void main(String[] args)
+```
+
+该数组是运行时系统将信息传递给您的应用程序的机制。例如：
+```
+java MyApp arg1 arg2
+```
+运行MyAPP程序时，传递给它2个字符串arg1和arg2。
+
    
    
 #### Reference:
