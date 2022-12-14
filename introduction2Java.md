@@ -170,7 +170,7 @@ class name {
 ```
 其中class是用于定义类的关键字，而name是这个类的名字。
 
-上述的Hello World程序中，用关键字clas定义了一个名字为HelloWorld的类。
+上述的Hello World程序中，用关键字class定义了一个名字为HelloWorld的类。
 ```java
 class HelloWorld {
      ... .. ...
