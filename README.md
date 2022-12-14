@@ -5,7 +5,7 @@
 
 ## [1.1 Java介绍](https://github.com/hwdong-net/java_tutorials/blob/main/introduction2Java.md)
 
-## [1.2 语言基础](https://github.com/hwdong-net/java_tutorials/blob/main/variable%E5%8F%98%E9%87%8F.md)
+## [1.2 语言基础](https://github.com/hwdong-net/java_tutorials/blob/main/1.2%20%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80.md)
 
 # 参考资料
 
