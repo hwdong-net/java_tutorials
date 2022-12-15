@@ -203,6 +203,3 @@ System.out.println("Hello World!");
 ```
 使用核心库中的System类来打印“Hello World！”消息到标准输出。
    
-#### Reference:
-   - [https://docs.oracle.com/javase/tutorial/getStarted/intro/definition.html](https://docs.oracle.com/javase/tutorial/getStarted/intro/definition.html)
-   - [https://www.programiz.com/java-programming/jvm-jre-jdk](https://www.programiz.com/java-programming/jvm-jre-jdk)
