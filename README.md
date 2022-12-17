@@ -8,7 +8,7 @@
 ## [1.2 变量](https://github.com/hwdong-net/java_tutorials/blob/main/1.2%20variable.md)
 ## [1.3 运算符](https://github.com/hwdong-net/java_tutorials/blob/main/1.3%20operator.md)
 ## [1.4 输入输出](https://github.com/hwdong-net/java_tutorials/blob/main/1.4%20input%20and%20output.md)
-## [1.5 表达式、语句、程序块](https://github.com/hwdong-net/java_tutorials/blob/main/1.4%20input%20and%20output.md)
+## [1.5 表达式、语句、程序块](https://github.com/hwdong-net/java_tutorials/blob/main/1.5%20Expressions%2C%20Statements%20and%20Blocks.md)
 # 参考资料
 
 [http://tutorials.jenkov.com/java/index.html](http://tutorials.jenkov.com/java/index.html)
