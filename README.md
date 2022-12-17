@@ -6,6 +6,7 @@
 ## [1.1 Java介绍](https://github.com/hwdong-net/java_tutorials/blob/main/1.1%20introduction2Java.md)
 
 ## [1.2 变量](https://github.com/hwdong-net/java_tutorials/blob/main/1.2%20variable.md)
+## [1.3 运算符](https://github.com/hwdong-net/java_tutorials/blob/main/1.2%20variable.md)
 
 # 参考资料
 
