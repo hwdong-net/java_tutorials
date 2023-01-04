@@ -1,5 +1,11 @@
 数据结构是研究如何存储表示同类型的一组元素并执行有效的数据操作的学科。常见的数据结构有数组Vector、链表List、树Tree、集合Set、散列表HashTable等。
-Java集合框架(The Java collections framework)提供了一组**接口interfaces**和**类classes** 来实现各种数据结构和算法。Java的Collection是集合的意思，即同类型的一组数据元素的集合。
+
+Java 集合框架(The Java collections framework)提供了一种体系结构来存储和操作一组对象(Java的Collection是集合的意思，即同类型的一组数据元素的集合。)。 Java 集合框架提供了一组**接口interfaces**和**类classes** 来实现各种数据结构和算法（Algorithm），即包括：
+- **Interfaces 接口**: 接口是指抽象数据类型。它们允许独立于其表示的细节来操作 Java 集合。此外，它们在面向对象的编程语言中形成了层次结构(即接口派生出子接口)。
+- **Classes类**：类是接口的实现，同一个接口可以有不同的类实现。
+- **Algorithm算法**：算法是指对实现了集合接口的对象进行查找、排序等操作的方法。算法本质上是多态的，因为可以使用相同的方法对不同的接口对象进行操作。
+
+
 Java collections framework帮程序员实现了常用的典型数据结构，而不需要程序员自己去单独实现这些通用数据结构，可提高程序变量的效率和性能。例如，Java collections framework 提供的类**LinkedList**实现了**双向链表**数据结构。
 
 Java Collections FrameWork 包含： 接口以及接口的实现（类）、算法。java.util 包含 Collection 框架的所有类和接口。
