@@ -1,0 +1,4 @@
+Java集合框架(The Java collections framework)提供了一组接口和类来实现各种数据结构和算法。数据结构是研究如何存储表示同类型的一组元素并执行有效的数据操作的学科。常见的数据结构
+有数组Vector、链表List、树Tree、集合Set、散列表HashTable等。Java的Collection是集合的意思，即同类型的一组数据元素的集合。
+Java collections framework帮程序实现了常用的典型数据结构，而不需要程序员自己去单独实现这些通用数据结构，可提高程序变量的效率和性能。
+
