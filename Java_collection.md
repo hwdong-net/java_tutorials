@@ -154,13 +154,16 @@ Amit
 Ashish
 ```
 
+### Queue Interface(Queue队列接口)
+
+Queue队列接口保持先进先出的顺序。它可以定义为一个保存将要处理的元素的**有序列表**。有各种类，如 PriorityQueue(优先队列)、Deque（双向队列接口） 和 ArrayDeque（数组队列），它们实现了 Queue 接口。
+
+
 #### Set Interface（Set集合接口）
 
 Set 接口允许我们将元素存储在不同的集合中，类似于数学中的集合。它不能有重复的元素。
 
-#### Queue Interface(Queue队列接口)
 
-当我们想要以先进先出的方式存储和访问元素时，使用 Queue 接口。
 
 #### Map Interface（映射接口）
 在 Java 中，Map接口允许元素存储在键/值对中。键是可用于访问map中特定元素的唯一名称。而且，每个键都有一个与之关联的值。类似于通过单词查找单词的具体含义的字典。
