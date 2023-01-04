@@ -58,7 +58,6 @@ import java.util.*;
 class TestJavaCollection1{  
   public static void main(String args[]){  
      ArrayList<String> names = new ArrayList<>();   //Creating arraylist  
-     //ArrayList<String> names = new ArrayList<String>();  
      names.add("John");
      names.add("Jessica");
      names.add("Samuel");  
@@ -72,20 +71,26 @@ class TestJavaCollection1{
        System.out.println(name);
      }
      
+     for(int i = 0 ;i<names.size();i++)
+     {
+       System.out.println(names.get(i));
+     }
+     
      //Traversing list through Iterator  
      Iterator itr= names.iterator();  
      while(itr.hasNext()){  
           System.out.println(itr.next());  
     }  
   }  
-}  
+} 
 ```
 输出：
 ```
-Ravi
-Vijay
-Ravi
-Ajay
+JohnSamuel
+John
+Samuel
+John
+Samuel
 ```
 
 #### 1.2 LinkedList类
