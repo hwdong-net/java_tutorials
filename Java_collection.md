@@ -2,6 +2,10 @@
 Java集合框架(The Java collections framework)提供了一组**接口interfaces**和**类classes** 来实现各种数据结构和算法。Java的Collection是集合的意思，即同类型的一组数据元素的集合。
 Java collections framework帮程序员实现了常用的典型数据结构，而不需要程序员自己去单独实现这些通用数据结构，可提高程序变量的效率和性能。例如，Java collections framework 提供的类**LinkedList**实现了**双向链表**数据结构。
 
+Java Collections FrameWork 包含： 接口以及接口的实现（类）、算法。java.util 包包含 Collection 框架的所有类和接口。Collections FrameWork的层次接口如下：
+
+![](https://static.javatpoint.com/images/java-collection-hierarchy.png)
+
 ### Interfaces of Collections FrameWork （Collection框架的接口）
 
 Java 集合框架提供了各种接口。这些接口包括对集合执行不同操作的各种方法。
