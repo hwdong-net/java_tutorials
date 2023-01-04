@@ -183,6 +183,34 @@ public class TestJavaCollection5{
   }  
 }  
 ```
+#### Deque 接口
+Deque 接口扩展了 Queue 接口。在双端队列中，我们可以从两侧删除和添加元素。 Deque 代表双端队列，它使我们能够在两端执行操作。
+
+#### ArrayDeque类
+ArrayDeque 类实现了 Deque 接口。方便我们使用Deque。与队列不同，我们可以从两端添加或删除元素。
+ArrayDeque 比 ArrayList 和 Stack 更快，并且没有容量限制。
+```java
+import java.util.*;  
+public class TestJavaCollection6{  
+  public static void main(String[] args) {  
+     //Creating Deque and adding elements  
+     Deque<String> deque = new ArrayDeque<String>();  
+     deque.add("Gautam");  
+     deque.add("Karan");  
+     deque.add("Ajay");  
+     //Traversing elements  
+     for (String str : deque) {  
+         System.out.println(str);  
+     }  
+  }  
+}  
+```
+输出：
+```
+Gautam
+Karan
+Ajay
+```
 
 #### Set Interface（Set集合接口）
 
