@@ -77,7 +77,26 @@ public class TestJavaCollection2{
    }  
 }  
 ```
-  
+
+#### Vector类
+Vector 使用动态数组来存储数据元素。它类似于 ArrayList。但是，它是同步的并且包含许多不属于 Collection 框架的方法。
+```java
+import java.util.*;  
+public class TestJavaCollection3{  
+   public static void main(String args[]){  
+      Vector<String> v=new Vector<String>();  
+      v.add("Ayush");  
+      v.add("Amit");  
+      v.add("Ashish");  
+      v.add("Garima");  
+
+      Iterator<String> itr=v.iterator();  
+      while(itr.hasNext()){  
+         System.out.println(itr.next());  
+      }  
+   }  
+}  
+```
 #### Set Interface（Set集合接口）
 
 Set 接口允许我们将元素存储在不同的集合中，类似于数学中的集合。它不能有重复的元素。
