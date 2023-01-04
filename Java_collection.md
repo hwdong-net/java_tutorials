@@ -58,6 +58,13 @@ class TestJavaCollection1{
   }  
 }  
 ```
+输出：
+```
+Ravi
+Vijay
+Ravi
+Ajay
+```
 
 #### LinkedList类
   LinkedList也实现了 List 和 Deque接口 。它在内部使用双向链表来存储元素。它维护插入顺序并且不同步。在 LinkedList 中，操作速度很快，因为不需要移动数据元素。
@@ -76,6 +83,13 @@ public class TestJavaCollection2{
        }  
    }  
 }  
+```
+输出：
+```
+Ravi
+Vijay
+Ravi
+Ajay
 ```
 
 #### Vector类
@@ -96,6 +110,13 @@ public class TestJavaCollection3{
       }  
    }  
 }  
+```
+输出：
+```
+Ayush
+Amit
+Ashish
+Garima
 ```
 
 **[Significant Differences between ArrayList and Vector](https://www.geeksforgeeks.org/vector-vs-arraylist-java/)**
