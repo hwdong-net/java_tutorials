@@ -222,7 +222,7 @@ Set<data-type> s3 = new TreeSet<data-type>();
 ```
 
 #### HashSet类
-HashSet 类实现了 Set 接口。它表示使用哈希表(散列表)进行存储的集合。散列将元素存储于HashSet，它包含独特的元素。
+HashSet 类实现了Set 接口。它表示使用哈希表(散列表)进行存储的集合。不保证集合的元素具有某种次序。允许有空元素。
 ```java
 import java.util.*;  
 public class TestJavaCollection7{  
