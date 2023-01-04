@@ -212,9 +212,14 @@ Karan
 Ajay
 ```
 
-#### Set Interface（Set集合接口）
+### Set Interface（Set集合接口）
 
-Set 接口允许我们将元素存储在不同的集合中，类似于数学中的集合。它不能有重复的元素。
+Set 接口扩展了 Collection 接口。它表示不允许我们存储重复项的无序元素集。我们最多可以在 Set 中存储一个空值。 Set由HashSet、LinkedHashSet和TreeSet实现。
+```java
+Set<data-type> s1 = new HashSet<data-type>();  
+Set<data-type> s2 = new LinkedHashSet<data-type>();  
+Set<data-type> s3 = new TreeSet<data-type>();  
+```
 
 
 
