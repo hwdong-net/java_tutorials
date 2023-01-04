@@ -6,12 +6,12 @@ Java Collections FrameWork 包含： 接口以及接口的实现（类）、算�
 
 ![](https://static.javatpoint.com/images/java-collection-hierarchy.png)
 
-#### Collection接口
+### Collection接口
   Collection接口是集合框架层次结构的根接口。Collection接口有add()方法向collection中添加一个元素或元素集合、有remove()方法删除一个元素或元素集合、有contains()方法用于搜索元素。例如，add ( Object obj)向Collection对象添加一个元素，而addAll ( Collection c)则添加一个Collection对象c。
   
 Java 不提供 Collection接口的直接实现，但提供其子接口（如 List、Set 和 Queue）的实现。
 
-#### Iterable接口
+### Iterable接口
 
 Iterable 接口是所有Collection类的根接口.Collection 接口扩展了 Iterable 接口，因此 Collection 接口的所有子类也实现了 Iterable 接口。
  Iterable 接口只包含一个抽象方法：
@@ -26,8 +26,7 @@ Java 集合框架提供了各种接口。这些接口包括对集合执行不同
 ![Interfaces of Collections FrameWork](https://cdn.programiz.com/sites/tutorial2program/files/Java-Collections.png)
 
 
-
-#### List Interface（List列表接口）
+### List Interface（List列表接口）
 
 List接口表示一个有序的集合（类似数据结构的线性表），允许我们像数组一样添加和删除元素。列表接口由类 ArrayList、LinkedList、Vector 和 Stack 实现。
 
@@ -37,6 +36,27 @@ List <data-type> list1= new ArrayList();
 List <data-type> list2 = new LinkedList();  
 List <data-type> list3 = new Vector();  
 List <data-type> list4 = new Stack();  
+```
+List 接口中有多种方法可用于插入、删除和访问列表中的元素。
+
+#### ArrayList类
+ArrayList 类实现了 List 接口。它使用动态数组来存储不同数据类型的多个元素。 ArrayList 类维护插入顺序并且是非同步的。可以随机访问存储在 ArrayList 类中的元素。
+```java
+import java.util.*;  
+class TestJavaCollection1{  
+  public static void main(String args[]){  
+     ArrayList<String> list=new ArrayList<String>();//Creating arraylist  
+     list.add("Ravi");//Adding object in arraylist  
+     list.add("Vijay");  
+     list.add("Ravi");  
+     list.add("Ajay");  
+     //Traversing list through Iterator  
+     Iterator itr=list.iterator();  
+     while(itr.hasNext()){  
+          System.out.println(itr.next());  
+    }  
+  }  
+}  
 ```
 
 #### Set Interface（Set集合接口）
