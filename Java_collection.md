@@ -1,4 +1,22 @@
-Java集合框架(The Java collections framework)提供了一组接口和类来实现各种数据结构和算法。数据结构是研究如何存储表示同类型的一组元素并执行有效的数据操作的学科。常见的数据结构
-有数组Vector、链表List、树Tree、集合Set、散列表HashTable等。Java的Collection是集合的意思，即同类型的一组数据元素的集合。
-Java collections framework帮程序实现了常用的典型数据结构，而不需要程序员自己去单独实现这些通用数据结构，可提高程序变量的效率和性能。
+数据结构是研究如何存储表示同类型的一组元素并执行有效的数据操作的学科。常见的数据结构有数组Vector、链表List、树Tree、集合Set、散列表HashTable等。
+Java集合框架(The Java collections framework)提供了一组**接口interfaces**和**类classes** 来实现各种数据结构和算法。Java的Collection是集合的意思，即同类型的一组数据元素的集合。
+Java collections framework帮程序员实现了常用的典型数据结构，而不需要程序员自己去单独实现这些通用数据结构，可提高程序变量的效率和性能。例如，Java collections framework 提供的类**LinkedList**实现了**双向链表**数据结构。
 
+### Interfaces of Collections FrameWork （Collection框架的接口）
+
+Java 集合框架提供了各种接口。这些接口包括对集合执行不同操作的各种方法。
+![Interfaces of Collections FrameWork](https://cdn.programiz.com/sites/tutorial2program/files/Java-Collections.png)
+
+Collection 接口是集合框架层次结构的根接口。Java 不提供 Collection 接口的直接实现，但提供其子接口（如 List、Set 和 Queue）的实现。即Collection 接口包括由 Java 类实现的子接口。
+
+#### List Interface（List列表接口）
+
+List接口表示一个有序的集合（类似数据结构的线性表），允许我们像数组一样添加和删除元素。
+
+#### Set Interface（Set集合接口）
+
+Set 接口允许我们将元素存储在不同的集合中，类似于数学中的集合。它不能有重复的元素。
+
+#### Queue Interface(Queue队列接口)
+
+当我们想要以先进先出的方式存储和访问元素时，使用 Queue 接口。
