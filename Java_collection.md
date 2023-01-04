@@ -289,3 +289,4 @@ Iterator 接口提供了可用于访问集合元素的方法。迭代器类似�
 参考文献：
  - [Collections in Java] (https://www.javatpoint.com/collections-in-java)
  - [Java Map Collection Tutorial and Examples](https://www.codejava.net/java-core/collections/java-map-collection-tutorial-and-examples)
+ - [The Java Collection Framework Part 1: JDK 5](https://www3.ntu.edu.sg/home/ehchua/programming/java/J5c_Collection.html)
