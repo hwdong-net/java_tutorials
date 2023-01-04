@@ -14,7 +14,7 @@ A Map is an object that maps keys to values, or is a collection of attribute-val
 一个Map(映射)是将键(keys)映射到值(values)的对象，或者是属性值对的集合。它模拟了数学中的函数抽象。下图说明了一个map：
 ![](https://www.codejava.net/images/articles/javacore/collections/map/Map_function_abstraction.png)
 
-请注意，Map 不被视为真正的集合，因为 Map 接口不扩展 Collection 接口。相反，它在 Java 集合框架中启动了一个独立的分支，如下图所示：
+请注意，Map 不被视为真正的Collection，因为 Map 接口不扩展 Collection 接口。相反，它在 Java 集合框架中启动了一个独立的分支，如下图所示：
 ![](https://www.codejava.net/images/articles/javacore/collections/collections%20framework%20overview.png)
 
 Collections FrameWork的层次接口如下：
