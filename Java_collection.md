@@ -125,6 +125,13 @@ public class TestJavaCollection4{
    }  
 }  
 ```
+输出：
+```
+Ayush
+Garvit
+Amit
+Ashish
+```
 
 #### Set Interface（Set集合接口）
 
