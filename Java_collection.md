@@ -266,7 +266,25 @@ public static void main(String args[]){
 
 ####  Iterator Interface（迭代器接口）
 Iterator 接口提供了可用于访问集合元素的方法。迭代器类似于指向数组中元素的索引，通过迭代器可以遍历访问一个Collection对象的每个元素。
-
+```java
+Map<Integer, String> mapHttpErrors = new HashMap<>();
+ 
+mapHttpErrors.put(200, "OK");
+mapHttpErrors.put(303, "See Other");
+mapHttpErrors.put(404, "Not Found");
+mapHttpErrors.put(500, "Internal Server Error");
+ 
+System.out.println(mapHttpErrors);
+```
+输出：
+```
+{404=Not Found, 500=Internal Server Error, 200=OK, 303=See Other}
+```
+正如您在输出中看到的那样，HashMap 不会对其键值元素强加任何顺序。
+您可以创建一个从现有map复制元素的新map。例如：
+```java
+Map<Integer, String> mapErrors = new HashMap<>(mapHttpErrors);
+```
 
 
 参考文献：
