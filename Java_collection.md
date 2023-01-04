@@ -156,7 +156,7 @@ Ashish
 
 ### Queue Interface(Queue队列接口)
 
-Queue队列接口保持先进先出的顺序。它可以定义为一个保存将要处理的元素的**有序列表**。有各种类，如 PriorityQueue(优先队列)、Deque（双向队列接口） 和 ArrayDeque（数组队列），它们实现了 Queue 接口。
+Queue队列接口保持先进先出的顺序。它可以定义为一个保存将要处理的元素的**有序列表**。有各种类，如 PriorityQueue(优先队列)实现了 Queue，ArrayDeque接口实现了Deque接口的子接口Deque。Deque（双向队列接口）是Queue接口的子接口。
 
 
 #### Set Interface（Set集合接口）
