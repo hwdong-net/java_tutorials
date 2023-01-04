@@ -157,7 +157,32 @@ Ashish
 ### Queue Interface(Queue队列接口)
 
 Queue队列接口保持先进先出的顺序。它可以定义为一个保存将要处理的元素的**有序列表**。有各种类，如 PriorityQueue(优先队列)实现了 Queue，ArrayDeque接口实现了Deque接口的子接口Deque。Deque（双向队列接口）是Queue接口的子接口。
-
+```java
+import java.util.*;  
+public class TestJavaCollection5{  
+  public static void main(String args[]){  
+     PriorityQueue<String> queue=new PriorityQueue<String>();  
+     queue.add("Amit Sharma");  
+     queue.add("Vijay Raj");  
+     queue.add("JaiShankar");  
+     queue.add("Raj");  
+     System.out.println("head:"+queue.element());  
+     System.out.println("head:"+queue.peek());  
+     System.out.println("iterating the queue elements:");  
+     Iterator itr=queue.iterator();  
+     while(itr.hasNext()){  
+        System.out.println(itr.next());  
+     }  
+     queue.remove();  
+     queue.poll();  
+     System.out.println("after removing two elements:");  
+     Iterator<String> itr2=queue.iterator();  
+     while(itr2.hasNext()){  
+         System.out.println(itr2.next());  
+     }  
+  }  
+}  
+```
 
 #### Set Interface（Set集合接口）
 
