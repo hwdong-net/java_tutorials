@@ -59,6 +59,10 @@ class TestJavaCollection1{
 }  
 ```
 
+#### LinkedList类
+  LinkedList也实现了 List 和 Deque接口 。它在内部使用双向链表来存储元素。它维护插入顺序并且不同步。在 LinkedList 中，操作速度很快，因为不需要移动数据元素。
+  
+  
 #### Set Interface（Set集合接口）
 
 Set 接口允许我们将元素存储在不同的集合中，类似于数学中的集合。它不能有重复的元素。
