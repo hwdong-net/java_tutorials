@@ -61,7 +61,22 @@ class TestJavaCollection1{
 
 #### LinkedList类
   LinkedList也实现了 List 和 Deque接口 。它在内部使用双向链表来存储元素。它维护插入顺序并且不同步。在 LinkedList 中，操作速度很快，因为不需要移动数据元素。
-  
+```java
+import java.util.*;  
+public class TestJavaCollection2{  
+   public static void main(String args[]){  
+       LinkedList<String> al=new LinkedList<String>();  
+       al.add("Ravi");  
+       al.add("Vijay");  
+       al.add("Ravi");  
+       al.add("Ajay");  
+       Iterator<String> itr=al.iterator();  
+       while(itr.hasNext()){  
+         System.out.println(itr.next());  
+       }  
+   }  
+}  
+```
   
 #### Set Interface（Set集合接口）
 
