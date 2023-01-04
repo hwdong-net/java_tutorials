@@ -228,3 +228,7 @@ Set<data-type> s3 = new TreeSet<data-type>();
 
 ####  Iterator Interface（迭代器接口）
 Iterator 接口提供了可用于访问集合元素的方法。迭代器类似于指向数组中元素的索引，通过迭代器可以遍历访问一个Collection对象的每个元素。
+
+
+参考文献：
+ - [Collections in Java] (https://www.javatpoint.com/collections-in-java)
