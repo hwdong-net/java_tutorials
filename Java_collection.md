@@ -54,16 +54,25 @@ List 接口中有多种方法可用于插入、删除和访问列表中的元素
 #### 1.1 ArrayList类
 ArrayList 类实现了 List 接口。它使用动态数组来存储不同数据类型的多个元素。 ArrayList 类维护插入顺序并且是非同步的。可以随机访问存储在 ArrayList 类中的元素。
 ```java
-import java.util.*;  
+import java.util.ArrayList;
 class TestJavaCollection1{  
   public static void main(String args[]){  
-     ArrayList<String> list=new ArrayList<String>();//Creating arraylist  
-     list.add("Ravi");//Adding object in arraylist  
-     list.add("Vijay");  
-     list.add("Ravi");  
-     list.add("Ajay");  
+     ArrayList<String> names = new ArrayList<>();   //Creating arraylist  
+     names.add("John");
+     names.add("Jessica");
+     names.add("Samuel");  
+     
+     String firstName = names.get(0);  // "John"
+     String secondName = names.get(1); // "Jessica"
+
+     names.remove(1);  // removes "Jessica"
+     
+     for (String name : names) {
+       System.out.println(name);
+     }
+     
      //Traversing list through Iterator  
-     Iterator itr=list.iterator();  
+     Iterator itr= names.iterator();  
      while(itr.hasNext()){  
           System.out.println(itr.next());  
     }  
