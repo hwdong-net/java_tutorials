@@ -6,12 +6,28 @@ Java Collections FrameWork 包含： 接口以及接口的实现（类）、算�
 
 ![](https://static.javatpoint.com/images/java-collection-hierarchy.png)
 
+#### Collection接口
+  Collection接口是集合框架层次结构的根接口。Collection接口有add()方法向collection中添加一个元素或元素集合、有remove()方法删除一个元素或元素集合、有contains()方法用于搜索元素。例如，add ( Object obj)向Collection对象添加一个元素，而addAll ( Collection c)则添加一个Collection对象c。
+  
+Java 不提供 Collection接口的直接实现，但提供其子接口（如 List、Set 和 Queue）的实现。
+
+#### Iterable接口
+
+Iterable 接口是所有Collection类的根接口.Collection 接口扩展了 Iterable 接口，因此 Collection 接口的所有子类也实现了 Iterable 接口。
+ Iterable 接口只包含一个抽象方法：
+ ```java
+Iterator<T> iterator()  
+ ```
+ 它返回 T类型元素的迭代器。
+
+
+
 ### Interfaces of Collections FrameWork （Collection框架的接口）
 
 Java 集合框架提供了各种接口。这些接口包括对集合执行不同操作的各种方法。
 ![Interfaces of Collections FrameWork](https://cdn.programiz.com/sites/tutorial2program/files/Java-Collections.png)
 
-Collection 接口是集合框架层次结构的根接口。Java 不提供 Collection 接口的直接实现，但提供其子接口（如 List、Set 和 Queue）的实现。即Collection 接口包括由 Java 类实现的子接口。
+
 
 #### List Interface（List列表接口）
 
