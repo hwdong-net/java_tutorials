@@ -2,7 +2,22 @@
 Java集合框架(The Java collections framework)提供了一组**接口interfaces**和**类classes** 来实现各种数据结构和算法。Java的Collection是集合的意思，即同类型的一组数据元素的集合。
 Java collections framework帮程序员实现了常用的典型数据结构，而不需要程序员自己去单独实现这些通用数据结构，可提高程序变量的效率和性能。例如，Java collections framework 提供的类**LinkedList**实现了**双向链表**数据结构。
 
-Java Collections FrameWork 包含： 接口以及接口的实现（类）、算法。java.util 包包含 Collection 框架的所有类和接口。Collections FrameWork的层次接口如下：
+Java Collections FrameWork 包含： 接口以及接口的实现（类）、算法。java.util 包含 Collection 框架的所有类和接口。
+
+## Interface接口
+
+Java 集合框架提供了各种接口。这些接口包括对集合执行不同操作的各种方法。
+![Interfaces of Collections FrameWork](https://cdn.programiz.com/sites/tutorial2program/files/Java-Collections.png)
+
+A Map is an object that maps keys to values, or is a collection of attribute-value pairs. It models the function abstraction in mathematics. The following picture illustrates a map:
+
+一个Map(映射)是将键(keys)映射到值(values)的对象，或者是属性值对的集合。它模拟了数学中的函数抽象。下图说明了一个map：
+![](https://www.codejava.net/images/articles/javacore/collections/map/Map_function_abstraction.png)
+
+请注意，Map 不被视为真正的集合，因为 Map 接口不扩展 Collection 接口。相反，它在 Java 集合框架中启动了一个独立的分支，如下图所示：
+![](https://www.codejava.net/images/articles/javacore/collections/collections%20framework%20overview.png)
+
+Collections FrameWork的层次接口如下：
 
 ![](https://static.javatpoint.com/images/java-collection-hierarchy.png)
 
@@ -22,8 +37,7 @@ Iterator<T> iterator()
 
 
 
-Java 集合框架提供了各种接口。这些接口包括对集合执行不同操作的各种方法。
-![Interfaces of Collections FrameWork](https://cdn.programiz.com/sites/tutorial2program/files/Java-Collections.png)
+
 
 
 ### List Interface（List列表接口）
