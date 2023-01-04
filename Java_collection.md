@@ -105,6 +105,26 @@ public class TestJavaCollection3{
 - **Traversal**: Vector can use both Enumeration and Iterator for traversing over vector elements, while ArrayList can only use Iterator for traversing.
 - **Applications**: Most of the time, programmers prefer ArrayList over Vector because ArrayList can be synchronized explicitly using Collections.synchronizedList.
 
+#### Stack 类
+Stack（堆栈）是 Vector 的子类。它实现了**后进先出（ last-in-first-out）** 的数据结构，即堆栈。Stack类包含 Vector类的所有方法，还提供了它的方法，如 boolean push()、boolean peek()、boolean push(object o)，这些方法定义了它的属性。
+```java
+import java.util.*;  
+public class TestJavaCollection4{  
+   public static void main(String args[]){  
+       Stack<String> stack = new Stack<String>();  
+       stack.push("Ayush");  
+       stack.push("Garvit");  
+       stack.push("Amit");  
+       stack.push("Ashish");  
+       stack.push("Garima");  
+       stack.pop();  
+       Iterator<String> itr=stack.iterator();  
+       while(itr.hasNext()){  
+          System.out.println(itr.next());  
+       }  
+   }  
+}  
+```
 
 #### Set Interface（Set集合接口）
 
