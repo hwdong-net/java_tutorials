@@ -264,8 +264,7 @@ public static void main(String args[]){
 - **LinkedHashMap**：该实现使用哈希表和链表作为底层数据结构，因此LinkedHashMap的顺序是可预测的，默认顺序为插入顺序。此实现还允许像 HashMap 这样的空值。因此，当您希望 Map 的键值对按插入顺序排序时，请考虑使用 LinkedHashMap。
 - **TreeMap**：该实现使用红黑树作为底层数据结构。 TreeMap 根据其键的自然顺序或创建时提供的比较器进行排序。此实现不允许空值。因此，当您希望 Map 按键的自然顺序（例如字母顺序或数字顺序）或您指定的自定义顺序对其键值对进行排序时，请考虑使用 TreeMap。
 
-####  Iterator Interface（迭代器接口）
-Iterator 接口提供了可用于访问集合元素的方法。迭代器类似于指向数组中元素的索引，通过迭代器可以遍历访问一个Collection对象的每个元素。
+
 ```java
 Map<Integer, String> mapHttpErrors = new HashMap<>();
  
@@ -285,7 +284,8 @@ System.out.println(mapHttpErrors);
 ```java
 Map<Integer, String> mapErrors = new HashMap<>(mapHttpErrors);
 ```
-
+####  Iterator Interface（迭代器接口）
+Iterator 接口提供了可用于访问集合元素的方法。迭代器类似于指向数组中元素的索引，通过迭代器可以遍历访问一个Collection对象的每个元素。
 
 参考文献：
  - [Collections in Java] (https://www.javatpoint.com/collections-in-java)
