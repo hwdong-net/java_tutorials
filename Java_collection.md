@@ -13,6 +13,7 @@ Java Collections FrameWork 包含： 接口以及接口的实现（类）、算�
 ## Interface接口
 
 Java 集合框架提供了各种接口。这些接口包括对集合执行不同操作的各种方法。
+
 ![Interfaces of Collections FrameWork](https://docs.oracle.com/javase/tutorial/figures/collections/colls-coreInterfaces.gif)
 
 Interface接口主要分为2种： Collection和Map。
