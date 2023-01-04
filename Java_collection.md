@@ -97,6 +97,12 @@ public class TestJavaCollection3{
    }  
 }  
 ```
+
+**[Significant Differences between ArrayList and Vector](https://www.geeksforgeeks.org/vector-vs-arraylist-java/)**
+Vector is synchronized, which means only one thread at a time can access the code, while ArrayList is not synchronized, which means multiple threads can work on ArrayList at the same time.
+![](https://media.geeksforgeeks.org/wp-content/uploads/ArrayList-vs-Vector-Java.png)
+
+
 #### Set Interface（Set集合接口）
 
 Set 接口允许我们将元素存储在不同的集合中，类似于数学中的集合。它不能有重复的元素。
