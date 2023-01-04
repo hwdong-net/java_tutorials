@@ -36,11 +36,13 @@ Iterator<T> iterator()
  它返回 T类型元素的迭代器。
 
 
-### List Interface（List列表接口）
+### 1. List Interface（List列表接口）
 
-List接口表示一个有序的集合（类似数据结构的线性表），允许我们像数组一样添加和删除元素。列表接口由类 ArrayList、LinkedList、Vector 和 Stack 实现。
-
-要实例化 List 接口，我们必须使用：
+列表是有序的集合（有时称为序列）。列表可能包含重复的元素。可以使用从零开始的索引按元素在列表中的位置插入或访问元素。实现List接口的类有：
+ - ArrayList
+ - LinkedList
+ - Vector
+ - Stack
 ```java
 List <data-type> list1= new ArrayList();  
 List <data-type> list2 = new LinkedList();  
@@ -49,7 +51,7 @@ List <data-type> list4 = new Stack();
 ```
 List 接口中有多种方法可用于插入、删除和访问列表中的元素。
 
-#### ArrayList类
+#### 1.1 ArrayList类
 ArrayList 类实现了 List 接口。它使用动态数组来存储不同数据类型的多个元素。 ArrayList 类维护插入顺序并且是非同步的。可以随机访问存储在 ArrayList 类中的元素。
 ```java
 import java.util.*;  
@@ -76,7 +78,7 @@ Ravi
 Ajay
 ```
 
-#### LinkedList类
+#### 1.2 LinkedList类
   LinkedList也实现了 List 和 Deque接口 。它在内部使用双向链表来存储元素。它维护插入顺序并且不同步。在 LinkedList 中，操作速度很快，因为不需要移动数据元素。
 ```java
 import java.util.*;  
@@ -102,7 +104,7 @@ Ravi
 Ajay
 ```
 
-#### Vector类
+#### 1.3 Vector类
 Vector 使用动态数组来存储数据元素。它类似于 ArrayList。但是，它是同步的并且包含许多不属于 Collection 框架的方法。
 ```java
 import java.util.*;  
@@ -136,7 +138,7 @@ Garima
 - **Traversal**: Vector can use both Enumeration and Iterator for traversing over vector elements, while ArrayList can only use Iterator for traversing.
 - **Applications**: Most of the time, programmers prefer ArrayList over Vector because ArrayList can be synchronized explicitly using Collections.synchronizedList.
 
-#### Stack 类
+#### 1.4 Stack 类
 Stack（堆栈）是 Vector 的子类。它实现了**后进先出（ last-in-first-out）** 的数据结构，即堆栈。Stack类包含 Vector类的所有方法，还提供了它的方法，如 boolean push()、boolean peek()、boolean push(object o)，这些方法定义了它的属性。
 ```java
 import java.util.*;  
@@ -164,7 +166,7 @@ Amit
 Ashish
 ```
 
-### Queue Interface(Queue队列接口)
+### 2. Queue Interface(Queue队列接口)
 
 Queue队列接口保持先进先出的顺序。它可以定义为一个保存将要处理的元素的**有序列表**。有各种类，如 PriorityQueue(优先队列)实现了 Queue，ArrayDeque接口实现了Deque接口的子接口Deque。Deque（双向队列接口）是Queue接口的子接口。
 ```java
