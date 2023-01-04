@@ -9,22 +9,15 @@ Java Collections FrameWork 包含： 接口以及接口的实现（类）、算�
 Java 集合框架提供了各种接口。这些接口包括对集合执行不同操作的各种方法。
 ![Interfaces of Collections FrameWork](https://cdn.programiz.com/sites/tutorial2program/files/Java-Collections.png)
 
-A Map is an object that maps keys to values, or is a collection of attribute-value pairs. It models the function abstraction in mathematics. The following picture illustrates a map:
-
-一个Map(映射)是将键(keys)映射到值(values)的对象，或者是属性值对的集合。它模拟了数学中的函数抽象。下图说明了一个map：
-![](https://www.codejava.net/images/articles/javacore/collections/map/Map_function_abstraction.png)
-
-请注意，Map 不被视为真正的Collection，因为 Map 接口不扩展 Collection 接口。相反，它在 Java 集合框架中启动了一个独立的分支，如下图所示：
-![](https://www.codejava.net/images/articles/javacore/collections/collections%20framework%20overview.png)
-
-Collections FrameWork的层次接口如下：
-
-![](https://static.javatpoint.com/images/java-collection-hierarchy.png)
+Interface接口主要分为2种： Collection和Map。
 
 ### Collection接口
-  Collection接口是集合框架层次结构的根接口。Collection接口有add()方法向collection中添加一个元素或元素集合、有remove()方法删除一个元素或元素集合、有contains()方法用于搜索元素。例如，add ( Object obj)向Collection对象添加一个元素，而addAll ( Collection c)则添加一个Collection对象c。
+
+  Collection接口是集合框架(Collections FrameWork)层次结构的根接口。Collection接口有add()方法向collection中添加一个元素或元素集合、有remove()方法删除一个元素或元素集合、有contains()方法用于搜索元素。例如，add ( Object obj)向Collection对象添加一个元素，而addAll ( Collection c)则添加一个Collection对象c。
+
+Java不提供 Collection接口的直接实现，但提供其子接口（如 List、Set 和 Queue）的实现。Collection接口及其子接口和实现类的层次关系如下
   
-Java 不提供 Collection接口的直接实现，但提供其子接口（如 List、Set 和 Queue）的实现。
+  ![](https://static.javatpoint.com/images/java-collection-hierarchy.png)
 
 ### Iterable接口
 
@@ -34,10 +27,6 @@ Iterable 接口是所有Collection类的根接口.Collection 接口扩展了 Ite
 Iterator<T> iterator()  
  ```
  它返回 T类型元素的迭代器。
-
-
-
-
 
 
 ### List Interface（List列表接口）
@@ -258,6 +247,16 @@ public static void main(String args[]){
 
 
 ### Map Interface（映射接口）
+
+A Map is an object that maps keys to values, or is a collection of attribute-value pairs. It models the function abstraction in mathematics. The following picture illustrates a map:
+
+一个Map(映射)是将键(keys)映射到值(values)的对象，或者是属性值对的集合。它模拟了数学中的函数抽象。下图说明了一个map：
+![](https://www.codejava.net/images/articles/javacore/collections/map/Map_function_abstraction.png)
+
+请注意，Map 不被视为真正的Collection，因为 Map 接口不扩展 Collection 接口。相反，它在 Java 集合框架中启动了一个独立的分支，如下图所示：
+![](https://www.codejava.net/images/articles/javacore/collections/collections%20framework%20overview.png)
+
+
 在 Map接口的继承树中，有多个实现，但只有 3 个主要的、通用的和通用的实现——它们是 HashMap 和 LinkedHashMap 以及 TreeMap。
 
 - **HashMap**：此实现使用哈希表作为底层数据结构。它实现了所有 Map 操作并允许空值和一个空键。HashMap 不保证其键值元素的顺序。因此，当顺序无关紧要并且可以接受空值时，请考虑使用 HashMap。
