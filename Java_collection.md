@@ -22,8 +22,6 @@ Iterator<T> iterator()
 
 
 
-### Interfaces of Collections FrameWork （Collection框架的接口）
-
 Java 集合框架提供了各种接口。这些接口包括对集合执行不同操作的各种方法。
 ![Interfaces of Collections FrameWork](https://cdn.programiz.com/sites/tutorial2program/files/Java-Collections.png)
 
@@ -31,7 +29,15 @@ Java 集合框架提供了各种接口。这些接口包括对集合执行不同
 
 #### List Interface（List列表接口）
 
-List接口表示一个有序的集合（类似数据结构的线性表），允许我们像数组一样添加和删除元素。
+List接口表示一个有序的集合（类似数据结构的线性表），允许我们像数组一样添加和删除元素。列表接口由类 ArrayList、LinkedList、Vector 和 Stack 实现。
+
+要实例化 List 接口，我们必须使用：
+```java
+List <data-type> list1= new ArrayList();  
+List <data-type> list2 = new LinkedList();  
+List <data-type> list3 = new Vector();  
+List <data-type> list4 = new Stack();  
+```
 
 #### Set Interface（Set集合接口）
 
