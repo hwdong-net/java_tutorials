@@ -257,11 +257,16 @@ public static void main(String args[]){
 ```
 
 
-#### Map Interface（映射接口）
-在 Java 中，Map接口允许元素存储在键/值对中。键是可用于访问map中特定元素的唯一名称。而且，每个键都有一个与之关联的值。类似于通过单词查找单词的具体含义的字典。
+### Map Interface（映射接口）
+在 Map接口的继承树中，有多个实现，但只有 3 个主要的、通用的和通用的实现——它们是 HashMap 和 LinkedHashMap 以及 TreeMap。
+
+- **HashMap**：此实现使用哈希表作为底层数据结构。它实现了所有 Map 操作并允许空值和一个空键。HashMap 不保证其键值元素的顺序。因此，当顺序无关紧要并且可以接受空值时，请考虑使用 HashMap。
+- **LinkedHashMap**：该实现使用哈希表和链表作为底层数据结构，因此LinkedHashMap的顺序是可预测的，默认顺序为插入顺序。此实现还允许像 HashMap 这样的空值。因此，当您希望 Map 的键值对按插入顺序排序时，请考虑使用 LinkedHashMap。
+- **TreeMap**：该实现使用红黑树作为底层数据结构。 TreeMap 根据其键的自然顺序或创建时提供的比较器进行排序。此实现不允许空值。因此，当您希望 Map 按键的自然顺序（例如字母顺序或数字顺序）或您指定的自定义顺序对其键值对进行排序时，请考虑使用 TreeMap。
 
 ####  Iterator Interface（迭代器接口）
 Iterator 接口提供了可用于访问集合元素的方法。迭代器类似于指向数组中元素的索引，通过迭代器可以遍历访问一个Collection对象的每个元素。
+
 
 
 参考文献：
