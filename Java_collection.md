@@ -99,8 +99,9 @@ public class TestJavaCollection3{
 ```
 
 **[Significant Differences between ArrayList and Vector](https://www.geeksforgeeks.org/vector-vs-arraylist-java/)**
-Vector is synchronized, which means only one thread at a time can access the code, while ArrayList is not synchronized, which means multiple threads can work on ArrayList at the same time.
+ - **Synchronization**: Vector is synchronized, which means only one thread at a time can access the code, while ArrayList is not synchronized, which means multiple threads can work on ArrayList at the same time.
 ![](https://media.geeksforgeeks.org/wp-content/uploads/ArrayList-vs-Vector-Java.png)
+- **Performance**: ArrayList is faster. Since it is non-synchronized, while vector operations give slower performance since they are synchronized (thread-safe), if one thread works on a vector, it has acquired a lock on it, which forces any other thread wanting to work on it to have to wait until the lock is released.
 
 
 #### Set Interface（Set集合接口）
